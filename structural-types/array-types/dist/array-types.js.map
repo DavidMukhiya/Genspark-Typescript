@@ -1,0 +1,1 @@
+{"version":3,"file":"array-types.js","sourceRoot":"","sources":["../src/array-types.ts"],"names":[],"mappings":";AAAA,MAAM,GAAG,GAOL;IACA,SAAS,EAAE,OAAO;IAClB,QAAQ,EAAE,SAAS;IACnB,QAAQ,EAAC,MAAM;IACf,WAAW,EAAE,IAAI;IACjB,GAAG,EAAE,EAAE;IACP,QAAQ,EAAC,CAAC,cAAc,EAAE,SAAS,EAAE,gBAAgB,CAAC;CACrD,CAAA;AAEL,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC,CAAA"}
