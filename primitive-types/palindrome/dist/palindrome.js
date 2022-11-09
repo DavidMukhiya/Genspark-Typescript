@@ -14,3 +14,4 @@ function palidrome(str) {
     }
 }
 palidrome("it it i");
+//# sourceMappingURL=palindrome.js.map

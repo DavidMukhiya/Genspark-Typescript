@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\src\\structuredtype.ts",
+            "program": "${workspaceFolder}\\array-types\\dist\\array-types.js",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]
