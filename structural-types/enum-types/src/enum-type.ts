@@ -1,5 +1,5 @@
-const ADMIN:string = 'admin'
-const READ_ONLY:string = "user"
+const ADMIN = 'admin'
+const READ_ONLY = "user"
 
 
 //an enum is a way of giving more friendly name to sets of numeric values
