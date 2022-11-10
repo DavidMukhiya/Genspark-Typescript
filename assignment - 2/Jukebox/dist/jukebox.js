@@ -10,7 +10,7 @@ class Jukebox {
         this.playlist = playlist;
     }
     addSong(song) {
-        console.log(`${song.getTitle} song by ${song.getArtist} is added to playlist`);
+        console.log(`${song.title} song by ${song.artist} is added to playlist`);
         this.playlist.push(song);
     }
     playRandomSong() {

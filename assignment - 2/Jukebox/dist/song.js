@@ -2,20 +2,20 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 class Song {
     constructor(title, artist) {
-        this.title = title;
-        this.artist = artist;
+        this._title = title;
+        this._artist = artist;
     }
-    getTitle() {
-        return this.title;
+    get title() {
+        return this._title;
     }
-    setTitle(title) {
-        this.title = title;
+    set title(title) {
+        this._title = title;
     }
-    getArtist() {
-        return this.artist;
+    get artist() {
+        return this._artist;
     }
     setArtist(artist) {
-        this.artist = artist;
+        this._artist = artist;
     }
 }
 exports.default = Song;
