@@ -1,26 +1,26 @@
 export default class Song {
-  title: string;
-  artist: string;
+  _title: string;
+  _artist: string;
 
   constructor(title: string, artist: string) {
-    this.title = title;
-    this.artist = artist;
+    this._title = title;
+    this._artist = artist;
   }
 
-  getTitle(): string {
-    return this.title;
+  get title() {
+    return this._title;
   }
 
-  setTitle(title: string): void {
-    this.title = title;
+  set title(title: string){
+    this._title = title;
   }
 
-  getArtist(): string {
-    return this.artist;
+  get artist(){
+    return this._artist;
   }
 
-  setArtist(artist: string): void {
-    this.artist = artist;
+  setArtist(artist: string){
+    this._artist = artist;
   }
 
 }
